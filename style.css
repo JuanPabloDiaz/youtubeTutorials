@@ -1,0 +1,100 @@
+:root {
+	--desert-sand: #ddbea9ff;
+	--champagne-pink: #ffe8d6ff;
+	--ash-gray: #b7b7a4ff;
+	--artichoke: #a5a58dff;
+	--ebony: #6b705cff;
+/* https://coolors.co/ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	text-decoration: none;
+}
+
+html{
+	font-size: 62.5%;
+  }
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--desert-sand);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	width: 90%;
+	max-width: 280px;
+	color: var(--ebony);
+	text-align: center;
+	padding: 50px 35px;
+	border: 1px solid var(--ebony);
+	background: var(--champagne-pink);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+}
+.card h1{
+	font-size: 2.5rem;
+	font-weight: 600;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.card a {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	font-size: 1.2rem;
+	transition: background 0.5s;
+	color: var(--artichoke);
+	padding: 1% 0;
+}
+
+.card a:hover, .card a span i:hover {
+	color: var(--ash-gray);
+}
+.card a i{
+	font-size: 1.2rem;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+	.card {
+		max-width: 440px;
+	}
+
+	.container .card h1 {
+		font-size: 3rem;
+	}
+	.card a {
+		font-size: 2.3rem;
+	}
+	.card a i{
+		font-size: 2rem;
+
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.card {
+		max-width: 600px;
+	}
+	.container .card h1 {
+		font-size: 5.5rem;
+	}
+	.card a {
+		font-size: 3rem;
+	}
+	.card a i{
+		font-size: 2.5rem;
+	}
+}
