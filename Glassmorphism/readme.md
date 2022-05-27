@@ -4,3 +4,5 @@ Glassmorphism is a term used to describe UI design that emphasises light or dark
 
 
 [URL](https://www.youtube.com/watch?v=CAnVhvWZurc) for the video tutorial
+
+Vanilla JS [URL](https://micku7zu.github.io/vanilla-tilt.js/) used for the JS of this project
