@@ -61,9 +61,14 @@ nav {
 	width: 130px;
 }
 
-.nav-middle .mic-icon{
-	width: 16px;
+.nav-middle .mic-icon, 
+.fa-microphone {
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 8px;
+	font-size: 20px;
 }
+
 .nav-middle .search-box {
 	border: 1px solid var(--light-gray-color);
 	margin-right: 15px;

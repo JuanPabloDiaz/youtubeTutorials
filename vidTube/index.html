@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video Sharing Website | JP</title>
+    <script
+      src="https://kit.fontawesome.com/af0bf7190a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
     <nav class="flex-div">
       <div class="nav-left flex-div">
-        <img class="menu-icon" src="./src/img/menu.png" alt="menu" />
+        <img
+          class="menu-icon"
+          src="./src/icons/001-menu.png"
+          alt="hamburguer menu"
+        />
         <a href="./">
           <img class="logo" src="./src/img/logo.png" alt="logo" />
         </a>
@@ -20,16 +28,14 @@
           <input type="text" placeholder="Search" />
           <img src="./src/img/search.png" alt="Search Bar" />
         </div>
-        <img
-          class="mic-icon"
-          src="./src/img/voice-search.png"
-          alt="voice search image"
-        />
+        <div>
+          <i class="fa-solid fa-microphone"></i>
+        </div>
       </div>
       <div class="nav-right flex-div">
-        <img src="./src/img/upload.png" alt="upload" />
-        <img src="./src/img/more.png" alt="more" />
-        <img src="./src/img/notification.png" alt="notification" />
+        <img src="./src/icons/013-video.png" alt="create/upload" />
+        <img src="./src/icons/016-apps.png" alt="grid menu" />
+        <img src="./src/icons/031-bell.png" alt="notification bell" />
         <img
           class="user-icon circle-img"
           src="./src/img/profile.png"
@@ -46,40 +52,61 @@
           <p>Home</p>
         </a>
         <a href="#">
-          <img src="./src/img/explore.png" alt="Explore icon" />
+          <!-- <img class="icons-img" src="./src/img/explore.png" alt="Explore icon" /> -->
+          <img src="./src/icons/042-explore.png" alt="Explore" />
           <p>Explore</p>
         </a>
         <a href="#">
-          <img src="./src/img/subscriprion.png" alt="subscriprion icon" />
-          <p>subscriprion</p>
+          <img src="./src/icons/043-shorts.png" alt="shorts" />
+          <p>Shorts</p>
         </a>
         <a href="#">
-          <img src="./src/img/library.png" alt="Library icon" />
+          <img src="./src/icons/006-subscribe.png" alt="Subscriptions" />
+          <p>Subscriptions</p>
+        </a>
+        <hr />
+        <a href="#">
+          <img src="./src/icons/005-library.png" alt="Library" />
           <p>Library</p>
         </a>
         <a href="#">
-          <img src="./src/img/history.png" alt="history icon" />
+          <img src="./src/icons/007-history.png" alt="History" />
           <p>History</p>
         </a>
         <a href="#">
-          <img src="./src/img/playlist.png" alt="playlist icon" />
-          <p>Playlist</p>
+          <img src="./src/icons/028-video-1.png" alt="Your videos" />
+          <p>Your videos</p>
         </a>
         <a href="#">
-          <img src="./src/img/messages.png" alt="messages icon" />
-          <p>Messages</p>
+          <img src="./src/icons/041-clock.png" alt="Watch later" />
+          <p>Watch later</p>
         </a>
         <a href="#">
-          <img src="./src/img/show-more.png" alt="show more icon" />
-          <p>Show More</p>
+          <img src="./src/icons/010-like.png" alt="Liked videos" />
+          <p>Liked videos</p>
+        </a>
+        <a href="#">
+          <img src="./src/icons/007-history.png" alt="History" />
+          <p>History</p>
         </a>
         <hr />
       </div>
       <div class="subscribed-list">
         <h3>SUBSCRIPTIONS</h3>
         <a href="#">
-          <img src="./src/img/Jack.png" alt="Subscribe Channel icon" />
-          <p>Jack Nicholson</p>
+          <img src="./src/img/platzi.png" alt="Subscribe Channel icon" />
+          <p>Platzi</p>
+        </a>
+        <a href="#">
+          <img src="./src/img/freeCodeCamp.png" alt="Subscribe Channel icon" />
+          <p>freeCodeCamp.org</p>
+        </a>
+        <a href="#">
+          <img src="./src/img/networkChuck.png" alt="Subscribe Channel icon" />
+          <p>NetworkChuck</p>
+        </a>        <a href="#">
+          <img src="./src/img/technoTim.png" alt="Subscribe Channel icon" />
+          <p>Techno Tim</p>
         </a>
         <a href="#">
           <img src="./src/img/simon.png" alt="Subscribe Channel icon" />
@@ -97,6 +124,18 @@
           <img src="./src/img/cameron.png" alt="Subscribe Channel icon" />
           <p>Cameron Diaz</p>
         </a>
+        <a href="#">
+          <img src="./src/img/messages.png" alt="messages icon" />
+          <p>Messages</p>
+        </a>
+        <a href="#">
+          <img src="./src/img/playlist.png" alt="playlist icon" />
+          <p>Playlist</p>
+        </a>
+        <a href="#">
+          <img src="./src/img/show-more.png" alt="show more icon" />
+          <p>Show More</p>
+        </a>
       </div>
     </div>
 
@@ -105,7 +144,8 @@
     <div class="container">
       <div class="banner">
         <a href="">
-          <img src="./src/img/banner.png" alt="banner image" />
+          <!-- <img src="./src/img/juanDiazBanner.png" alt="banner image" /> -->
+          <img src="./src/img/bannerPlatzi.PNG" alt="banner image" />
         </a>
       </div>
       <div class="list-container">
@@ -114,12 +154,16 @@
             <img class="thumbnail" src="./src/img/thumbnail1.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/platzi.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html">
                 Video Tittle: Best Channel to learn coding that help you</a
               >
-              <p>Channel name</p>
+              <p>Platzi</p>
               <p>15K views &bull; 2 days</p>
             </div>
           </div>
@@ -129,7 +173,11 @@
             <img class="thumbnail" src="./src/img/thumbnail2.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -144,7 +192,11 @@
             <img class="thumbnail" src="./src/img/thumbnail3.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -159,7 +211,11 @@
             <img class="thumbnail" src="./src/img/thumbnail4.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -174,7 +230,11 @@
             <img class="thumbnail" src="./src/img/thumbnail5.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -189,7 +249,11 @@
             <img class="thumbnail" src="./src/img/thumbnail6.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -204,7 +268,11 @@
             <img class="thumbnail" src="./src/img/thumbnail7.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
@@ -219,7 +287,11 @@
             <img class="thumbnail" src="./src/img/thumbnail8.png"
           /></a>
           <div class="flex-div">
-            <img class="circle-img" src="./src/img/Jack.png" alt="channel icon" />
+            <img
+              class="circle-img"
+              src="./src/img/Jack.png"
+              alt="channel icon"
+            />
             <div class="vid-info">
               <a href="./src/pages/play.html"
                 >Video Tittle: Best Channel to learn coding that help you</a
