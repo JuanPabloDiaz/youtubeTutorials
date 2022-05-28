@@ -107,9 +107,6 @@ nav {
 	width: fit-content;
 	flex-wrap: wrap;
 }
-.shortcut-links a:hover{
-	background-color: rgba(169, 169, 169, 0.473);
-  }
 .shortcut-links a:first-child{
 	color: #ed3833;
 }
