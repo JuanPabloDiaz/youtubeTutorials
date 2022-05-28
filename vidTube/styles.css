@@ -187,3 +187,41 @@ nav {
 	display: block;
 	margin-bottom: 5px;
 }
+
+/* -------------------------- RESPONSIVE ------------------------------- */
+/* For devices with screen smaller than 900px */
+
+@media (max-width: 900px) {
+
+	.menu-icon, .sidebar {
+		display: none;
+	}
+	.container, .large-container {
+		padding-left: 5% ;
+		padding-right: 5% ;
+	}
+	.nav-right img {
+		display: none;
+	}
+	.nav-right .user-icon {
+		display: block;
+		width: 30px;
+	}
+	.nav-middle .search-box input {
+		width: 100px;
+
+	}
+	.nav-middle .mic-icon {
+		display: none;
+	}
+	.nav-left .logo {
+		width: 90px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.container .banner{
+		display: none;
+	}
+}
