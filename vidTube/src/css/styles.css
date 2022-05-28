@@ -107,6 +107,9 @@ nav {
 	width: fit-content;
 	flex-wrap: wrap;
 }
+.shortcut-links a:hover{
+	background-color: rgba(169, 169, 169, 0.473);
+  }
 .shortcut-links a:first-child{
 	color: #ed3833;
 }
@@ -175,6 +178,32 @@ nav {
 	gap: 16px 30px;
 	margin-top: 15px;
 }
+.vid-list {
+	position: relative;
+}
+.vid-list span, .vid-list .hide {
+	position: absolute;
+	color: var(--white-color);
+	background: rgba(0, 0, 0, 0.6) ;
+	border-radius: 6px;
+	padding: 4px 9px;
+	bottom: 82px;
+	right: 5px;
+	font-size: 12px;
+}
+ .hide {
+	display: none;
+}
+.unhide:hover + .hide {
+	display: block;
+	background-color: var(--black-color);
+  }
+
+.vid-list .fa-ellipsis-vertical {
+	float: right;
+	padding: 5px;
+}
+
 .vid-list .thumbnail{
 	width: 100%;
 	border-radius: 5px;
