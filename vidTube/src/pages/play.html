@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video Sharing Website | JP</title>
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/play.css" />
   </head>
   <body>
     <nav class="flex-div">
       <div class="nav-left flex-div">
         <img class="menu-icon" src="../img/menu.png" alt="menu" />
-        <img class="logo" src="../img/logo.png" alt="logo" />
+        <a href="../../">
+          <img class="logo" src="../img/logo.png" alt="logo" />
+        </a>
       </div>
       <div class="nav-middle flex-div">
         <div class="search-box flex-div">
@@ -28,13 +31,60 @@
         <img src="../img/upload.png" alt="upload" />
         <img src="../img/more.png" alt="more" />
         <img src="../img/notification.png" alt="notification" />
-        <img
-          class="user-icon"
-          src="../img/profile.png"
-          alt="profile Picture"
-        />
+        <img class="user-icon" src="../img/profile.png" alt="profile Picture" />
       </div>
     </nav>
+    <div class="container play-container">
+      <div class="row">
+        <div class="play-video">
+          <video controls autoplay>
+            <source src="../vid/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="right-sidebar">
+          <div class="side-video-list">
+            <a class="small-thumbnail" href="">
+              <img src="../img/thumbnail1.png" alt="thumbnail" />
+            </a>
+            <div class="vid-info">
+              <a href="">Title: Best Channel</a>
+              <p>Description...</p>
+              <p>15K views</p>
+            </div>
+          </div>
+          <div class="side-video-list">
+            <a class="small-thumbnail" href="">
+              <img src="../img/thumbnail2.png" alt="thumbnail" />
+            </a>
+            <div class="vid-info">
+              <a href="">Title: Best Channel</a>
+              <p>Description...</p>
+              <p>15K views</p>
+            </div>
+          </div>
+          <div class="side-video-list">
+            <a class="small-thumbnail" href="">
+              <img src="../img/thumbnail3.png" alt="thumbnail" />
+            </a>
+            <div class="vid-info">
+              <a href="">Title: Best Channel</a>
+              <p>Description...</p>
+              <p>15K views</p>
+            </div>
+          </div>
+          <div class="side-video-list">
+            <a class="small-thumbnail" href="">
+              <img src="../img/thumbnail4.png" alt="thumbnail" />
+            </a>
+            <div class="vid-info">
+              <a href="">Title: Best Channel</a>
+              <p>Description...</p>
+              <p>15K views</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="../js/script.js"></script>
   </body>
