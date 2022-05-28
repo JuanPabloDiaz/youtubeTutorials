@@ -95,6 +95,7 @@ nav {
 	top: 0;
 	padding-left: 2%;
 	padding-top: 80px;
+	overflow-y: scroll;
 }
 .shortcut-links a img{
 	width: 20px;
@@ -115,9 +116,10 @@ nav {
 	height: 1px;
 	background: var(--light-gray-color);
 	width: 85%;
+	margin-bottom: 25px;
 }
 
-.subscribed-list h3{
+.subscribed-list h3, .shortcut-links h3{
 	font-size: 13px;
 	margin: 20px 0;
 	color: var(--gray-color);
@@ -134,6 +136,13 @@ nav {
 	border-radius: 50%;
 	margin-right: 20px;
 }
+/* JP ADDING MORE INFO */
+  
+  .aside--list a:hover{
+	background-color: rgba(169, 169, 169, 0.473);
+  }
+/* END JP ADDING INFO */
+
 /* ---------- reduce sidebar size (JS action): --------------- */
 .small-sidebar {
 	width: 5%;
@@ -146,9 +155,7 @@ nav {
 }
 .small-sidebar hr {
 	width: 50%;
-	margin-bottom: 25px;
 }
-
 /* ---------- Main --------------- */
 
 .container {
