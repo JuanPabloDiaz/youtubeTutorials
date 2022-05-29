@@ -211,7 +211,8 @@ nav {
 .vid-list .thumbnail{
 	width: 100%;
 	border-radius: 5px;
-	height: 152px;
+	height: auto;
+	max-height: 350px;
 }
 .vid-list .flex-div{
 	align-items: flex-start;
