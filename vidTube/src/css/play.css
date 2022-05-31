@@ -34,6 +34,9 @@
 .side-video-list .vid-info {
 	flex-basis: 49%;
 }
+.vid-info .views {
+	padding-top: 5px;
+}
 .play-video .tags a {
 	color: var(--blue-link-color);
 	font-size: 13px;
