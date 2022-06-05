@@ -53,7 +53,7 @@ Resources list that I find helpful and would like to give credit to.
 - [Youtube...](https://www.youtube.com/)
 - [Youtube...](https://www.youtube.com/)
 - [Youtube...](https://www.youtube.com/)
-- [Youtube...](https://www.youtube.com/)
+- [CSS Toggle Switch | On Off Button](https://www.youtube.com/watch?v=uCjDIMADK0w)
 
 <p align="right">(<a href="#top">👆top👆</a>)</p>
 
