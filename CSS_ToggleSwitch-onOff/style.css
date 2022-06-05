@@ -45,13 +45,13 @@ h1
 .slider:before
 {
     position:absolute;
-    content:"";
-   height:50px;
-   width:50px;
+	content:"";
+   	height:50px;
+   	width:50px;
     left:5px;
     bottom:5px;
-   background-color:white;
-   transition:0.4s;
+   	background-color:white;
+   	transition:0.4s;
     border-radius:50px;
 }
 input:checked+.slider
@@ -61,4 +61,94 @@ input:checked+.slider
 input:checked+.slider:before
 {
     transform:translatex(50px)
+}
+
+/* NEW Toggle Switch button: */
+
+.switch1
+{
+	position:relative;
+	display:inline-block;
+	width:55px;
+	height:24px;
+	margin:010px;
+}
+.slider1
+{
+	position:absolute;
+	cursor:pointer;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#ccc;
+	transition:.4s;
+	border-radius:34px;
+}
+.switch1 input{display:none}
+
+.slider1:before
+{
+    position:absolute;
+    content:"";
+   	height:20px;
+   	width:20px;
+   	left:5px;
+   	bottom:2px;
+   	background-color:white;
+   	transition:0.4s;
+    border-radius:50px;
+}
+input:checked+.slider1
+{
+    background-color:#4727ff;
+}
+input:checked+.slider1:before
+{
+    transform:translatex(25px)
+}
+
+/* NEW Toggle Switch button: */
+
+.switch2
+{
+	position:relative;
+	display:inline-block;
+	width:25px;
+	height:12px;
+	margin:010px;
+}
+.slider2
+{
+	position:absolute;
+	cursor:pointer;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#ccc;
+	transition:.4s;
+	border-radius:34px;
+}
+.switch2 input{display:none}
+
+.slider2:before
+{
+    position:absolute;
+    content:"";
+   	height:10px;
+   	width:10px;
+   	left:2px;
+   	bottom:1px;
+   	background-color:white;
+   	transition:0.4s;
+    border-radius:50px;
+}
+input:checked+.slider2
+{
+    background-color:#4727ff;
+}
+input:checked+.slider2:before
+{
+    transform:translatex(10px)
 }
